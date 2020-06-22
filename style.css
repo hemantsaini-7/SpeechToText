@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Piedra&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: blanchedalmond;
+  overflow: hidden;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: "Piedra", cursive;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.area {
+  width: 500px;
+  height: 200px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  border: 6px solid #000;
+  outline: none;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+.start-btn {
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: sandybrown;
+  border: 0;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+.start-btn:focus {
+  outline: none;
+}
+.start-btn:hover {
+  background-color: rgb(236, 142, 59);
+}
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
